@@ -1,5 +1,5 @@
 {
-  "homepage": "https:Parsanta.github.io/devops",
+  "homepage": "https://Parsanta.github.io/devops",
   "name": "codespaces-react",
   "version": "0.1.0",
   "private": true,
@@ -22,7 +22,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
