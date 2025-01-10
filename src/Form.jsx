@@ -42,7 +42,7 @@ class Form extends Component {
         })
         .then(response => {
             console.log(response);
-            alert('Form submitted successfully');
+            // alert('Form submitted successfully');
             if (this.listRef.current) {
                 this.listRef.current.fetchUsers(); // Call the fetchUsers method on the List component
               }
